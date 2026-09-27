@@ -1,4 +1,4 @@
-AI Learning Studio v5.8 - Auto Install Package
+AI Learning Studio v5.9 - Windows Edition / Auto Install Package
 ================================================
 
 วิธีติดตั้งครั้งแรก
