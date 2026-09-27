@@ -63,7 +63,7 @@ class Studio(tk.Tk):
         return f
     def done(self,n,p=100): self.progress[str(n)]=max(self.progress[str(n)],p)
     def home(self):
-        self.clear(); self.header('AI Learning Studio v5.8','INPUT → AI → DECISION → COMMAND → ROBOT → FEEDBACK')
+        self.clear(); self.header('AI Learning Studio v5.9 • Windows Edition','CODE → MATH → VISUALIZATION → PYTHON → AI → ROBOT')
         b=self.scrollbody(); hero=self.card(b,'เรียน AI โดย “ลงมือทำ”','แต่ละบทมี Learn → Try → Challenge → Explain Math → Apply นักเรียนสามารถเริ่มจาก Dataset A/B แล้วใช้โมเดลเดียวกันต่อไปถึง Robot AI')
         ttk.Button(hero,text='เริ่มบทที่ 01',style='Primary.TButton',command=self.lesson1).pack(anchor='w',padx=18,pady=(0,16))
         grid=tk.Frame(b,bg=BG); grid.pack(fill='x',padx=20,pady=8)
