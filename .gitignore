@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.buildvenv/
+build/
+dist/
+installer/*.exe
+*.spec.bak
+.DS_Store
+Thumbs.db
+*.log
+# Local/private legacy source archives
+*.zip
+tc/
+TC/
