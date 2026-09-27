@@ -1,0 +1,38 @@
+{
+  "app_version": "5.9",
+  "source_archive": "tc(3).zip",
+  "original_entries": 10943,
+  "selected_source_files": 21,
+  "tc_learning_files": [
+    "TC_LEARNING/geometry/CIRCLE.PAS",
+    "TC_LEARNING/geometry/COCIRCLE.PAS",
+    "TC_LEARNING/geometry/PARAX.PAS",
+    "TC_LEARNING/geometry/PARAY.PAS",
+    "TC_LEARNING/geometry/COPARAX.PAS",
+    "TC_LEARNING/geometry/COPARAY.PAS",
+    "TC_LEARNING/geometry/CELLIPSE.PAS",
+    "TC_LEARNING/geometry/ELLIPSEX.PAS",
+    "TC_LEARNING/geometry/ELLIPSEY.PAS",
+    "TC_LEARNING/sorting/BUBBLE.PAS",
+    "TC_LEARNING/sorting/ALLSORT.PAS",
+    "TC_LEARNING/sorting/SORT.PAS",
+    "TC_LEARNING/sorting/QSORT.PAS",
+    "TC_LEARNING/statistics/STAT.H",
+    "TC_LEARNING/statistics/STAT_ALT.H",
+    "TC_LEARNING/statistics/MCALC.C",
+    "TC_LEARNING/statistics/MCALC.H",
+    "TC_LEARNING/tree/BTREE.H",
+    "TC_LEARNING/tree/TREEROAD.C",
+    "TC_LEARNING/statistics/MCALC_ALT.C",
+    "TC_LEARNING/geometry/CIRCLE.CPP"
+  ],
+  "python_packages": [
+    "sympy",
+    "Pillow",
+    "opencv-python",
+    "pyserial"
+  ],
+  "distribution": "Windows standalone EXE + Inno Setup recipe",
+  "exe_name": "AI_Learning_Studio_v59.exe",
+  "setup_name": "AI_Learning_Studio_v59_Setup.exe"
+}
