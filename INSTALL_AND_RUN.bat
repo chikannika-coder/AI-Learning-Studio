@@ -1,10 +1,10 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-title AI Learning Studio v5.8 - Automatic Installer
+title AI Learning Studio v5.9 • Windows Edition - Automatic Installer
 
 echo ============================================================
-echo   AI Learning Studio v5.8 - Automatic Install and Run
+echo   AI Learning Studio v5.9 • Windows Edition - Automatic Install and Run
 echo ============================================================
 echo.
 
