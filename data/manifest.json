@@ -1,5 +1,5 @@
 {
-  "app_version": "5.9",
+  "app_version": "5.8",
   "source_archive": "tc(3).zip",
   "original_entries": 10943,
   "selected_source_files": 21,
@@ -31,8 +31,5 @@
     "Pillow",
     "opencv-python",
     "pyserial"
-  ],
-  "distribution": "Windows standalone EXE + Inno Setup recipe",
-  "exe_name": "AI_Learning_Studio_v59.exe",
-  "setup_name": "AI_Learning_Studio_v59_Setup.exe"
+  ]
 }

@@ -1,0 +1,256 @@
+{
+  "caimath": {
+    "candidate_files": 20,
+    "top_math_sources": [
+      {
+        "name": "caimath/MAIN.PAS",
+        "ext": ".pas",
+        "score": 15,
+        "evidence": [
+          "random",
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 755
+      },
+      {
+        "name": "caimath/ELLIPSEX.PAS",
+        "ext": ".pas",
+        "score": 14,
+        "evidence": [
+          "sqrt/power",
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 618
+      },
+      {
+        "name": "caimath/ELLIPSEY.PAS",
+        "ext": ".pas",
+        "score": 14,
+        "evidence": [
+          "sqrt/power",
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 610
+      },
+      {
+        "name": "caimath/START.PAS",
+        "ext": ".pas",
+        "score": 14,
+        "evidence": [
+          "trigonometry",
+          "coordinate geometry"
+        ],
+        "lines": 365
+      },
+      {
+        "name": "caimath/CIRCLE.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 524
+      },
+      {
+        "name": "caimath/COMPARE.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 828
+      },
+      {
+        "name": "caimath/KVGA.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 265
+      },
+      {
+        "name": "caimath/PARAX.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 663
+      },
+      {
+        "name": "caimath/PARAY.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 673
+      },
+      {
+        "name": "caimath/YJJSVGA.PAS",
+        "ext": ".pas",
+        "score": 10,
+        "evidence": [
+          "coordinate geometry",
+          "arrays"
+        ],
+        "lines": 266
+      }
+    ]
+  },
+  "tc": {
+    "candidate_files": 2983,
+    "top_math_sources": [
+      {
+        "name": "tc/EXAMPLES/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1401
+      },
+      {
+        "name": "tc/Project/Bin/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/Project/Children/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/Project/Children/TC3/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/Project/ClothLine/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/Project/Roof/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/Project/Roof/TC/BGI/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1404
+      },
+      {
+        "name": "tc/TC/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1401
+      },
+      {
+        "name": "tc/TC/c/BGIDEMO.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 1401
+      },
+      {
+        "name": "tc/TC/cprog/S26/TETRIS.C",
+        "ext": ".c",
+        "score": 24,
+        "evidence": [
+          "random",
+          "trigonometry",
+          "coordinate geometry",
+          "iteration",
+          "arrays",
+          "numeric types"
+        ],
+        "lines": 286
+      }
+    ]
+  },
+  "scoring": "transparent token/structure evidence; math connection is pedagogical interpretation"
+}

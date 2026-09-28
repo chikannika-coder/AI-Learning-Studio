@@ -1,0 +1,8150 @@
+[
+  {
+    "archive": "tc",
+    "file": "tc/TC/tp/EXAMPLES/TVFM/EQU.PAS",
+    "score": 162,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 20,
+        "lhs": "cmDosShell",
+        "rhs": "cmNewWindow + 1",
+        "source": "cmDosShell          = cmNewWindow + 1;"
+      },
+      {
+        "line": 21,
+        "lhs": "cmRun",
+        "rhs": "cmDosShell + 1",
+        "source": "cmRun               = cmDosShell + 1;"
+      },
+      {
+        "line": 25,
+        "lhs": "cmViewAsHex",
+        "rhs": "cmExecute + 1",
+        "source": "cmViewAsHex         = cmExecute + 1;"
+      },
+      {
+        "line": 26,
+        "lhs": "cmViewAsText",
+        "rhs": "cmViewAsHex + 1",
+        "source": "cmViewAsText        = cmViewAsHex + 1;"
+      },
+      {
+        "line": 27,
+        "lhs": "cmViewCustom",
+        "rhs": "cmViewAsText + 1",
+        "source": "cmViewCustom        = cmViewAsText + 1;"
+      },
+      {
+        "line": 28,
+        "lhs": "cmAssociate",
+        "rhs": "cmViewCustom + 1",
+        "source": "cmAssociate         = cmViewCustom + 1;"
+      },
+      {
+        "line": 29,
+        "lhs": "cmCopy",
+        "rhs": "cmAssociate + 1",
+        "source": "cmCopy              = cmAssociate + 1;"
+      },
+      {
+        "line": 30,
+        "lhs": "cmDelete",
+        "rhs": "cmCopy + 1",
+        "source": "cmDelete            = cmCopy + 1;"
+      },
+      {
+        "line": 31,
+        "lhs": "cmRename",
+        "rhs": "cmDelete + 1",
+        "source": "cmRename            = cmDelete + 1;"
+      },
+      {
+        "line": 32,
+        "lhs": "cmChangeAttr",
+        "rhs": "cmRename + 1",
+        "source": "cmChangeAttr        = cmRename + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caibinary/PROC.PAS",
+    "score": 119,
+    "variables": [
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 24,
+        "lhs": "x",
+        "rhs": "x1 - size",
+        "source": "x := x1 - size;"
+      },
+      {
+        "line": 161,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 162,
+        "lhs": "y1",
+        "rhs": "y1 - 1",
+        "source": "y1 := y1 - 1;"
+      },
+      {
+        "line": 168,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 169,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 178,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1; y1 := y1 - 1;"
+      },
+      {
+        "line": 184,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1;"
+      },
+      {
+        "line": 185,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 228,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b - 1;"
+      },
+      {
+        "line": 237,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caitree/PROC.PAS",
+    "score": 119,
+    "variables": [
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 24,
+        "lhs": "x",
+        "rhs": "x1 - size",
+        "source": "x := x1 - size;"
+      },
+      {
+        "line": 161,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 162,
+        "lhs": "y1",
+        "rhs": "y1 - 1",
+        "source": "y1 := y1 - 1;"
+      },
+      {
+        "line": 168,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 169,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 178,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1; y1 := y1 - 1;"
+      },
+      {
+        "line": 184,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1;"
+      },
+      {
+        "line": 185,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 228,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b - 1;"
+      },
+      {
+        "line": 237,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/tp/caitree/PROC.PAS",
+    "score": 119,
+    "variables": [
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 24,
+        "lhs": "x",
+        "rhs": "x1 - size",
+        "source": "x := x1 - size;"
+      },
+      {
+        "line": 161,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 162,
+        "lhs": "y1",
+        "rhs": "y1 - 1",
+        "source": "y1 := y1 - 1;"
+      },
+      {
+        "line": 168,
+        "lhs": "x1",
+        "rhs": "x1 - 1",
+        "source": "x1 := x1 - 1;"
+      },
+      {
+        "line": 169,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 178,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1; y1 := y1 - 1;"
+      },
+      {
+        "line": 184,
+        "lhs": "x1",
+        "rhs": "x1 + 1",
+        "source": "x1 := x1 + 1;"
+      },
+      {
+        "line": 185,
+        "lhs": "y1",
+        "rhs": "y1 + 1",
+        "source": "y1 := y1 + 1;"
+      },
+      {
+        "line": 228,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b - 1;"
+      },
+      {
+        "line": 237,
+        "lhs": "a",
+        "rhs": "a - 1",
+        "source": "a := a - 1; b := b + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caibinary/TESTNEW.PAS",
+    "score": 90,
+    "variables": [
+      "Choose",
+      "no",
+      "Count",
+      "Ti",
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 96,
+        "lhs": "x2",
+        "rhs": "x1 + 20",
+        "source": "x2 := x1 + 20;"
+      },
+      {
+        "line": 97,
+        "lhs": "y2",
+        "rhs": "y1 + 20",
+        "source": "y2 := y1 + 20;"
+      },
+      {
+        "line": 99,
+        "lhs": "x1",
+        "rhs": "x1 + 22",
+        "source": "x1 := x1 + 22;"
+      },
+      {
+        "line": 101,
+        "lhs": "y1",
+        "rhs": "y1+22",
+        "source": "y1 := y1+22;"
+      },
+      {
+        "line": 119,
+        "lhs": "x",
+        "rhs": "(x1-22) + 22*co",
+        "source": "x  := (x1-22) + 22*co;"
+      },
+      {
+        "line": 120,
+        "lhs": "y",
+        "rhs": "y1 + 22*(no)",
+        "source": "y  := y1 + 22*(no);"
+      },
+      {
+        "line": 121,
+        "lhs": "x2",
+        "rhs": "x + 20",
+        "source": "x2 := x + 20;"
+      },
+      {
+        "line": 122,
+        "lhs": "y2",
+        "rhs": "y + 20",
+        "source": "y2 := y + 20;"
+      },
+      {
+        "line": 135,
+        "lhs": "Time",
+        "rhs": "Timer[i] - sec",
+        "source": "Time := Timer[i] - sec;"
+      },
+      {
+        "line": 178,
+        "lhs": "Now",
+        "rhs": "Now-1",
+        "source": "Now := Now-1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caitree/TESTNEW.PAS",
+    "score": 90,
+    "variables": [
+      "Choose",
+      "no",
+      "Count",
+      "Ti",
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 96,
+        "lhs": "x2",
+        "rhs": "x1 + 20",
+        "source": "x2 := x1 + 20;"
+      },
+      {
+        "line": 97,
+        "lhs": "y2",
+        "rhs": "y1 + 20",
+        "source": "y2 := y1 + 20;"
+      },
+      {
+        "line": 99,
+        "lhs": "x1",
+        "rhs": "x1 + 22",
+        "source": "x1 := x1 + 22;"
+      },
+      {
+        "line": 101,
+        "lhs": "y1",
+        "rhs": "y1+22",
+        "source": "y1 := y1+22;"
+      },
+      {
+        "line": 119,
+        "lhs": "x",
+        "rhs": "(x1-22) + 22*co",
+        "source": "x  := (x1-22) + 22*co;"
+      },
+      {
+        "line": 120,
+        "lhs": "y",
+        "rhs": "y1 + 22*(no)",
+        "source": "y  := y1 + 22*(no);"
+      },
+      {
+        "line": 121,
+        "lhs": "x2",
+        "rhs": "x + 20",
+        "source": "x2 := x + 20;"
+      },
+      {
+        "line": 122,
+        "lhs": "y2",
+        "rhs": "y + 20",
+        "source": "y2 := y + 20;"
+      },
+      {
+        "line": 135,
+        "lhs": "Time",
+        "rhs": "Timer[i] - sec",
+        "source": "Time := Timer[i] - sec;"
+      },
+      {
+        "line": 178,
+        "lhs": "Now",
+        "rhs": "Now-1",
+        "source": "Now := Now-1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/tp/caitree/TESTNEW.PAS",
+    "score": 90,
+    "variables": [
+      "Choose",
+      "no",
+      "Count",
+      "Ti",
+      "i",
+      "j",
+      "Old",
+      "Now",
+      "p"
+    ],
+    "expressions": [
+      {
+        "line": 96,
+        "lhs": "x2",
+        "rhs": "x1 + 20",
+        "source": "x2 := x1 + 20;"
+      },
+      {
+        "line": 97,
+        "lhs": "y2",
+        "rhs": "y1 + 20",
+        "source": "y2 := y1 + 20;"
+      },
+      {
+        "line": 99,
+        "lhs": "x1",
+        "rhs": "x1 + 22",
+        "source": "x1 := x1 + 22;"
+      },
+      {
+        "line": 101,
+        "lhs": "y1",
+        "rhs": "y1+22",
+        "source": "y1 := y1+22;"
+      },
+      {
+        "line": 119,
+        "lhs": "x",
+        "rhs": "(x1-22) + 22*co",
+        "source": "x  := (x1-22) + 22*co;"
+      },
+      {
+        "line": 120,
+        "lhs": "y",
+        "rhs": "y1 + 22*(no)",
+        "source": "y  := y1 + 22*(no);"
+      },
+      {
+        "line": 121,
+        "lhs": "x2",
+        "rhs": "x + 20",
+        "source": "x2 := x + 20;"
+      },
+      {
+        "line": 122,
+        "lhs": "y2",
+        "rhs": "y + 20",
+        "source": "y2 := y + 20;"
+      },
+      {
+        "line": 135,
+        "lhs": "Time",
+        "rhs": "Timer[i] - sec",
+        "source": "Time := Timer[i] - sec;"
+      },
+      {
+        "line": 178,
+        "lhs": "Now",
+        "rhs": "Now-1",
+        "source": "Now := Now-1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/tp/EXAMPLES/TVFM/TOOLS.PAS",
+    "score": 76,
+    "variables": [
+      "i",
+      "ParamPos",
+      "I",
+      "TotalSize",
+      "R",
+      "C",
+      "L",
+      "Attr",
+      "Count",
+      "Command",
+      "Result",
+      "J"
+    ],
+    "expressions": [
+      {
+        "line": 245,
+        "lhs": "GetExeBaseName",
+        "rhs": "D + N",
+        "source": "GetExeBaseName := D + N;"
+      },
+      {
+        "line": 320,
+        "lhs": "s",
+        "rhs": "s + TwoDigit(t.Month, False) + '-' + TwoDigit(t.Day, True)",
+        "source": "s := s + TwoDigit(t.Month, False) + '-' + TwoDigit(t.Day, True);"
+      },
+      {
+        "line": 321,
+        "lhs": "s",
+        "rhs": "s + '-' + Copy(FourDigit(t.Year),3,2)",
+        "source": "s := s + '-' + Copy(FourDigit(t.Year),3,2);"
+      },
+      {
+        "line": 370,
+        "lhs": "Name",
+        "rhs": "Name + E",
+        "source": "Name := Name + E;"
+      },
+      {
+        "line": 392,
+        "lhs": "Params",
+        "rhs": "Copy(Command, ParamPos + 1, $FF)",
+        "source": "Params := Copy(Command, ParamPos + 1, $FF);"
+      },
+      {
+        "line": 394,
+        "lhs": "Params",
+        "rhs": "Params + ' ' + FileName",
+        "source": "Params := Params + ' ' + FileName;"
+      },
+      {
+        "line": 441,
+        "lhs": "Params",
+        "rhs": "'/c ' + FileName + Params",
+        "source": "Params := '/c ' + FileName + Params;"
+      },
+      {
+        "line": 527,
+        "lhs": "Params",
+        "rhs": "'/c ' + Viewer + ' ' + FileName",
+        "source": "Params := '/c ' + Viewer + ' ' + FileName;"
+      },
+      {
+        "line": 650,
+        "lhs": "S",
+        "rhs": "Drive + ':'",
+        "source": "S := Drive + ':';"
+      },
+      {
+        "line": 744,
+        "lhs": "S",
+        "rhs": "Path + '\\' + F^.Name + F^.Ext",
+        "source": "S := Path + '\\' + F^.Name + F^.Ext;"
+      }
+    ]
+  },
+  {
+    "archive": "caimath",
+    "file": "caimath/PARAY.PAS",
+    "score": 67,
+    "variables": [
+      "pyxa",
+      "pyc",
+      "pyx",
+      "pyy",
+      "pyya",
+      "bpyxa",
+      "pyh",
+      "pyk",
+      "pydatachoice",
+      "real_delay",
+      "real_delay2"
+    ],
+    "expressions": [
+      {
+        "line": 14,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 188,
+        "lhs": "bpyxa",
+        "rhs": "-50",
+        "source": "bpyxa := -50;"
+      },
+      {
+        "line": 194,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 197,
+        "lhs": "pyy",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyy := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 222,
+        "lhs": "bpyxa",
+        "rhs": "-100",
+        "source": "bpyxa := -100;"
+      },
+      {
+        "line": 228,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 231,
+        "lhs": "pyy",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyy := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 270,
+        "lhs": "bpyxa",
+        "rhs": "-85",
+        "source": "bpyxa := -85;"
+      },
+      {
+        "line": 271,
+        "lhs": "pyc",
+        "rhs": "-10",
+        "source": "pyc   := -10;"
+      },
+      {
+        "line": 276,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caimath/PARAY.PAS",
+    "score": 67,
+    "variables": [
+      "pyxa",
+      "pyc",
+      "pyx",
+      "pyy",
+      "pyya",
+      "bpyxa",
+      "pyh",
+      "pyk",
+      "pydatachoice",
+      "real_delay",
+      "real_delay2"
+    ],
+    "expressions": [
+      {
+        "line": 14,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 188,
+        "lhs": "bpyxa",
+        "rhs": "-50",
+        "source": "bpyxa := -50;"
+      },
+      {
+        "line": 194,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 197,
+        "lhs": "pyy",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyy := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 222,
+        "lhs": "bpyxa",
+        "rhs": "-100",
+        "source": "bpyxa := -100;"
+      },
+      {
+        "line": 228,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 231,
+        "lhs": "pyy",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyy := round((pyxa*pyxa)/(4*pyc));"
+      },
+      {
+        "line": 270,
+        "lhs": "bpyxa",
+        "rhs": "-85",
+        "source": "bpyxa := -85;"
+      },
+      {
+        "line": 271,
+        "lhs": "pyc",
+        "rhs": "-10",
+        "source": "pyc   := -10;"
+      },
+      {
+        "line": 276,
+        "lhs": "pyya",
+        "rhs": "round((pyxa*pyxa)/(4*pyc))",
+        "source": "pyya  := round((pyxa*pyxa)/(4*pyc));"
+      }
+    ]
+  },
+  {
+    "archive": "caimath",
+    "file": "caimath/PARAX.PAS",
+    "score": 64,
+    "variables": [
+      "pxxa",
+      "pxc",
+      "pxx",
+      "pxy",
+      "pxya",
+      "bpxxa",
+      "pxh",
+      "pxk",
+      "pxdatachoice",
+      "real_delay",
+      "real_delay2"
+    ],
+    "expressions": [
+      {
+        "line": 14,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 190,
+        "lhs": "bpxya",
+        "rhs": "-50",
+        "source": "bpxya := -50;"
+      },
+      {
+        "line": 196,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 199,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 223,
+        "lhs": "bpxya",
+        "rhs": "-100",
+        "source": "bpxya := -100;"
+      },
+      {
+        "line": 229,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 232,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 270,
+        "lhs": "bpxya",
+        "rhs": "-83",
+        "source": "bpxya := -83;"
+      },
+      {
+        "line": 276,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 279,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caimath/PARAX.PAS",
+    "score": 64,
+    "variables": [
+      "pxxa",
+      "pxc",
+      "pxx",
+      "pxy",
+      "pxya",
+      "bpxxa",
+      "pxh",
+      "pxk",
+      "pxdatachoice",
+      "real_delay",
+      "real_delay2"
+    ],
+    "expressions": [
+      {
+        "line": 14,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 190,
+        "lhs": "bpxya",
+        "rhs": "-50",
+        "source": "bpxya := -50;"
+      },
+      {
+        "line": 196,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 199,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 223,
+        "lhs": "bpxya",
+        "rhs": "-100",
+        "source": "bpxya := -100;"
+      },
+      {
+        "line": 229,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 232,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 270,
+        "lhs": "bpxya",
+        "rhs": "-83",
+        "source": "bpxya := -83;"
+      },
+      {
+        "line": 276,
+        "lhs": "pxxa",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxxa  := round((pxya*pxya)/(4*pxc));"
+      },
+      {
+        "line": 279,
+        "lhs": "pxx",
+        "rhs": "round((pxya*pxya)/(4*pxc))",
+        "source": "pxx := round((pxya*pxya)/(4*pxc));"
+      }
+    ]
+  },
+  {
+    "archive": "caimath",
+    "file": "caimath/MAIN.PAS",
+    "score": 58,
+    "variables": [
+      "real_delay",
+      "real_delay2",
+      "valout",
+      "x",
+      "y",
+      "err",
+      "a",
+      "w",
+      "row",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 15,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 211,
+        "lhs": "Ya",
+        "rhs": "-74",
+        "source": "Ya := -74;"
+      },
+      {
+        "line": 212,
+        "lhs": "Xa",
+        "rhs": "round((Ya*Ya)/(4*C))",
+        "source": "Xa := round((Ya*Ya)/(4*C));"
+      },
+      {
+        "line": 213,
+        "lhs": "Y",
+        "rhs": "-74",
+        "source": "Y := -74;"
+      },
+      {
+        "line": 216,
+        "lhs": "X",
+        "rhs": "round((Y*Y)/(4*C))",
+        "source": "X := round((Y*Y)/(4*C));"
+      },
+      {
+        "line": 244,
+        "lhs": "xa",
+        "rhs": "-64",
+        "source": "xa := -64;"
+      },
+      {
+        "line": 245,
+        "lhs": "ya",
+        "rhs": "round((xa*xa)/(4*c))",
+        "source": "ya := round((xa*xa)/(4*c));"
+      },
+      {
+        "line": 246,
+        "lhs": "X",
+        "rhs": "-64",
+        "source": "X := -64;"
+      },
+      {
+        "line": 248,
+        "lhs": "Y",
+        "rhs": "round((X*X)/(4*C))",
+        "source": "Y := round((X*X)/(4*C));"
+      },
+      {
+        "line": 362,
+        "lhs": "xa",
+        "rhs": "-64",
+        "source": "xa := -64;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/caimath/MAIN.PAS",
+    "score": 58,
+    "variables": [
+      "real_delay",
+      "real_delay2",
+      "valout",
+      "x",
+      "y",
+      "err",
+      "a",
+      "w",
+      "row",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 15,
+        "lhs": "Xdelay",
+        "rhs": "round((real_delay2*ms)/5000)",
+        "source": "Xdelay := round((real_delay2*ms)/5000);"
+      },
+      {
+        "line": 211,
+        "lhs": "Ya",
+        "rhs": "-74",
+        "source": "Ya := -74;"
+      },
+      {
+        "line": 212,
+        "lhs": "Xa",
+        "rhs": "round((Ya*Ya)/(4*C))",
+        "source": "Xa := round((Ya*Ya)/(4*C));"
+      },
+      {
+        "line": 213,
+        "lhs": "Y",
+        "rhs": "-74",
+        "source": "Y := -74;"
+      },
+      {
+        "line": 216,
+        "lhs": "X",
+        "rhs": "round((Y*Y)/(4*C))",
+        "source": "X := round((Y*Y)/(4*C));"
+      },
+      {
+        "line": 244,
+        "lhs": "xa",
+        "rhs": "-64",
+        "source": "xa := -64;"
+      },
+      {
+        "line": 245,
+        "lhs": "ya",
+        "rhs": "round((xa*xa)/(4*c))",
+        "source": "ya := round((xa*xa)/(4*c));"
+      },
+      {
+        "line": 246,
+        "lhs": "X",
+        "rhs": "-64",
+        "source": "X := -64;"
+      },
+      {
+        "line": 248,
+        "lhs": "Y",
+        "rhs": "round((X*X)/(4*C))",
+        "source": "Y := round((X*X)/(4*C));"
+      },
+      {
+        "line": 362,
+        "lhs": "xa",
+        "rhs": "-64",
+        "source": "xa := -64;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/c_grapic/2D.C",
+    "score": 55,
+    "variables": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "curcolor",
+      "gdriver",
+      "gmode",
+      "r",
+      "sa",
+      "ea"
+    ],
+    "expressions": [
+      {
+        "line": 59,
+        "lhs": "a",
+        "rhs": "getmaxx() / 2",
+        "source": "a = getmaxx() / 2;"
+      },
+      {
+        "line": 60,
+        "lhs": "b",
+        "rhs": "getmaxy() / 2",
+        "source": "b = getmaxy() / 2;"
+      },
+      {
+        "line": 79,
+        "lhs": "d",
+        "rhs": "b-1",
+        "source": "d=b-1;"
+      },
+      {
+        "line": 88,
+        "lhs": "d",
+        "rhs": "b+1",
+        "source": "d=b+1;"
+      },
+      {
+        "line": 96,
+        "lhs": "c",
+        "rhs": "a+1",
+        "source": "c=a+1;"
+      },
+      {
+        "line": 105,
+        "lhs": "c",
+        "rhs": "a-1",
+        "source": "c=a-1;"
+      },
+      {
+        "line": 114,
+        "lhs": "c",
+        "rhs": "a+1",
+        "source": "c=a+1;"
+      },
+      {
+        "line": 115,
+        "lhs": "d",
+        "rhs": "b+1",
+        "source": "d=b+1;"
+      },
+      {
+        "line": 123,
+        "lhs": "c",
+        "rhs": "a-1",
+        "source": "c=a-1;"
+      },
+      {
+        "line": 124,
+        "lhs": "d",
+        "rhs": "b-1",
+        "source": "d=b-1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/OUTPUT/RoofAndCurtain/TC/CLASSLIB/INCLUDE/DLISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 64,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 211,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 240,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 257,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 271,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 285,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 286,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 337,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 359,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 376,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/OUTPUT/RoofAndCurtain/TC/CLASSLIB/INCLUDE/LISTIMP.H",
+    "score": 54,
+    "variables": [],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "next",
+        "rhs": "p->next",
+        "source": "next = p->next;"
+      },
+      {
+        "line": 201,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 224,
+        "lhs": "current",
+        "rhs": "current->next",
+        "source": "current = current->next;"
+      },
+      {
+        "line": 241,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 255,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 269,
+        "lhs": "res",
+        "rhs": "&(cur->data)",
+        "source": "res = &(cur->data);"
+      },
+      {
+        "line": 270,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      },
+      {
+        "line": 318,
+        "lhs": "cursor",
+        "rhs": "cursor->next",
+        "source": "cursor = cursor->next;"
+      },
+      {
+        "line": 339,
+        "lhs": "cur",
+        "rhs": "list->head.next",
+        "source": "cur = list->head.next;"
+      },
+      {
+        "line": 355,
+        "lhs": "cur",
+        "rhs": "cur->next",
+        "source": "cur = cur->next;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/SORT/COVERRED.PAS",
+    "score": 52,
+    "variables": [
+      "curx",
+      "cury",
+      "tarx",
+      "tary",
+      "col",
+      "stepx",
+      "stepy",
+      "totalpixel",
+      "color",
+      "colorcount",
+      "fadecount"
+    ],
+    "expressions": [
+      {
+        "line": 11,
+        "lhs": "picturexofs",
+        "rhs": "(639-picturewidth) div 2",
+        "source": "picturexofs = (639-picturewidth) div 2;"
+      },
+      {
+        "line": 12,
+        "lhs": "pictureyofs",
+        "rhs": "(479-pictureheight) div 2",
+        "source": "pictureyofs = (479-pictureheight) div 2;"
+      },
+      {
+        "line": 74,
+        "lhs": "curx",
+        "rhs": "random(639+1) shl step",
+        "source": "curx:=random(639+1) shl step;"
+      },
+      {
+        "line": 75,
+        "lhs": "cury",
+        "rhs": "random(479+1) shl step",
+        "source": "cury:=random(479+1) shl step;"
+      },
+      {
+        "line": 76,
+        "lhs": "tarx",
+        "rhs": "(picturexofs+xc-1) shl step",
+        "source": "tarx:=(picturexofs+xc-1) shl step;"
+      },
+      {
+        "line": 77,
+        "lhs": "tary",
+        "rhs": "(pictureyofs+yc-1) shl step",
+        "source": "tary:=(pictureyofs+yc-1) shl step;"
+      },
+      {
+        "line": 78,
+        "lhs": "stepx",
+        "rhs": "(tarx-curx) div 64",
+        "source": "stepx:=(tarx-curx) div 64;"
+      },
+      {
+        "line": 79,
+        "lhs": "stepy",
+        "rhs": "(tary-cury) div 64",
+        "source": "stepy:=(tary-cury) div 64;"
+      },
+      {
+        "line": 174,
+        "lhs": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))] := (c shl 8) + c;"
+      },
+      {
+        "line": 175,
+        "lhs": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))] := (c shl 8) + c;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/sort/COVERRED.PAS",
+    "score": 52,
+    "variables": [
+      "curx",
+      "cury",
+      "tarx",
+      "tary",
+      "col",
+      "stepx",
+      "stepy",
+      "totalpixel",
+      "color",
+      "colorcount",
+      "fadecount"
+    ],
+    "expressions": [
+      {
+        "line": 11,
+        "lhs": "picturexofs",
+        "rhs": "(639-picturewidth) div 2",
+        "source": "picturexofs = (639-picturewidth) div 2;"
+      },
+      {
+        "line": 12,
+        "lhs": "pictureyofs",
+        "rhs": "(479-pictureheight) div 2",
+        "source": "pictureyofs = (479-pictureheight) div 2;"
+      },
+      {
+        "line": 74,
+        "lhs": "curx",
+        "rhs": "random(639+1) shl step",
+        "source": "curx:=random(639+1) shl step;"
+      },
+      {
+        "line": 75,
+        "lhs": "cury",
+        "rhs": "random(479+1) shl step",
+        "source": "cury:=random(479+1) shl step;"
+      },
+      {
+        "line": 76,
+        "lhs": "tarx",
+        "rhs": "(picturexofs+xc-1) shl step",
+        "source": "tarx:=(picturexofs+xc-1) shl step;"
+      },
+      {
+        "line": 77,
+        "lhs": "tary",
+        "rhs": "(pictureyofs+yc-1) shl step",
+        "source": "tary:=(pictureyofs+yc-1) shl step;"
+      },
+      {
+        "line": 78,
+        "lhs": "stepx",
+        "rhs": "(tarx-curx) div 64",
+        "source": "stepx:=(tarx-curx) div 64;"
+      },
+      {
+        "line": 79,
+        "lhs": "stepy",
+        "rhs": "(tary-cury) div 64",
+        "source": "stepy:=(tary-cury) div 64;"
+      },
+      {
+        "line": 174,
+        "lhs": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))] := (c shl 8) + c;"
+      },
+      {
+        "line": 175,
+        "lhs": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))] := (c shl 8) + c;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/sort/sort/COVERRED.PAS",
+    "score": 52,
+    "variables": [
+      "curx",
+      "cury",
+      "tarx",
+      "tary",
+      "col",
+      "stepx",
+      "stepy",
+      "totalpixel",
+      "color",
+      "colorcount",
+      "fadecount"
+    ],
+    "expressions": [
+      {
+        "line": 11,
+        "lhs": "picturexofs",
+        "rhs": "(639-picturewidth) div 2",
+        "source": "picturexofs = (639-picturewidth) div 2;"
+      },
+      {
+        "line": 12,
+        "lhs": "pictureyofs",
+        "rhs": "(479-pictureheight) div 2",
+        "source": "pictureyofs = (479-pictureheight) div 2;"
+      },
+      {
+        "line": 74,
+        "lhs": "curx",
+        "rhs": "random(639+1) shl step",
+        "source": "curx:=random(639+1) shl step;"
+      },
+      {
+        "line": 75,
+        "lhs": "cury",
+        "rhs": "random(479+1) shl step",
+        "source": "cury:=random(479+1) shl step;"
+      },
+      {
+        "line": 76,
+        "lhs": "tarx",
+        "rhs": "(picturexofs+xc-1) shl step",
+        "source": "tarx:=(picturexofs+xc-1) shl step;"
+      },
+      {
+        "line": 77,
+        "lhs": "tary",
+        "rhs": "(pictureyofs+yc-1) shl step",
+        "source": "tary:=(pictureyofs+yc-1) shl step;"
+      },
+      {
+        "line": 78,
+        "lhs": "stepx",
+        "rhs": "(tarx-curx) div 64",
+        "source": "stepx:=(tarx-curx) div 64;"
+      },
+      {
+        "line": 79,
+        "lhs": "stepy",
+        "rhs": "(tary-cury) div 64",
+        "source": "stepy:=(tary-cury) div 64;"
+      },
+      {
+        "line": 174,
+        "lhs": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y-1) shl 1)*320+(x shl 1))] := (c shl 8) + c;"
+      },
+      {
+        "line": 175,
+        "lhs": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))]",
+        "rhs": "(c shl 8) + c",
+        "source": "memw[$a000:(((y shl 1)-1)*320+(x shl 1))] := (c shl 8) + c;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/SORT/ALLSORT.PAS",
+    "score": 47,
+    "variables": [
+      "i",
+      "status"
+    ],
+    "expressions": [
+      {
+        "line": 62,
+        "lhs": "tmp",
+        "rhs": "a[i-1]",
+        "source": "tmp:=a[i-1];"
+      },
+      {
+        "line": 65,
+        "lhs": "child",
+        "rhs": "(i)*2",
+        "source": "child:=(i)*2;"
+      },
+      {
+        "line": 71,
+        "lhs": "a[i-1]",
+        "rhs": "a[child-1]",
+        "source": "a[i-1]:=a[child-1];"
+      },
+      {
+        "line": 154,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 155,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 156,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      },
+      {
+        "line": 183,
+        "lhs": "x[right]",
+        "rhs": "temp[right+1]",
+        "source": "x[right]:=temp[right+1];"
+      },
+      {
+        "line": 204,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 207,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 210,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/sort/ALLSORT.PAS",
+    "score": 47,
+    "variables": [
+      "i",
+      "status"
+    ],
+    "expressions": [
+      {
+        "line": 62,
+        "lhs": "tmp",
+        "rhs": "a[i-1]",
+        "source": "tmp:=a[i-1];"
+      },
+      {
+        "line": 65,
+        "lhs": "child",
+        "rhs": "(i)*2",
+        "source": "child:=(i)*2;"
+      },
+      {
+        "line": 71,
+        "lhs": "a[i-1]",
+        "rhs": "a[child-1]",
+        "source": "a[i-1]:=a[child-1];"
+      },
+      {
+        "line": 154,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 155,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 156,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      },
+      {
+        "line": 183,
+        "lhs": "x[right]",
+        "rhs": "temp[right+1]",
+        "source": "x[right]:=temp[right+1];"
+      },
+      {
+        "line": 204,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 207,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 210,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/sort/sort/ALLSORT.PAS",
+    "score": 47,
+    "variables": [
+      "i",
+      "status"
+    ],
+    "expressions": [
+      {
+        "line": 62,
+        "lhs": "tmp",
+        "rhs": "a[i-1]",
+        "source": "tmp:=a[i-1];"
+      },
+      {
+        "line": 65,
+        "lhs": "child",
+        "rhs": "(i)*2",
+        "source": "child:=(i)*2;"
+      },
+      {
+        "line": 71,
+        "lhs": "a[i-1]",
+        "rhs": "a[child-1]",
+        "source": "a[i-1]:=a[child-1];"
+      },
+      {
+        "line": 154,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 155,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 156,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      },
+      {
+        "line": 183,
+        "lhs": "x[right]",
+        "rhs": "temp[right+1]",
+        "source": "x[right]:=temp[right+1];"
+      },
+      {
+        "line": 204,
+        "lhs": "num",
+        "rhs": "abs(right-left)+1",
+        "source": "num:=abs(right-left)+1;"
+      },
+      {
+        "line": 207,
+        "lhs": "leftend",
+        "rhs": "center-1",
+        "source": "leftend:=center-1;"
+      },
+      {
+        "line": 210,
+        "lhs": "tmp",
+        "rhs": "left+1",
+        "source": "tmp:=left+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/EXAMPLES/MCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/MCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/MCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/OUTPUT/RoofAndCurtain/TC/EXAMPLES/TCALC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/port/control2/MCUTIL.C",
+    "score": 46,
+    "variables": [
+      "size",
+      "len",
+      "maxlen",
+      "start",
+      "numstring",
+      "fcol",
+      "frow",
+      "value",
+      "s",
+      "spaces1",
+      "spaces2",
+      "total",
+      "col"
+    ],
+    "expressions": [
+      {
+        "line": 22,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + 2));"
+      },
+      {
+        "line": 37,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(sizeof(double) + 1))",
+        "source": "cellptr = (CELLPTR)(malloc(sizeof(double) + 1));"
+      },
+      {
+        "line": 53,
+        "lhs": "cellptr",
+        "rhs": "(CELLPTR)(malloc(strlen(s) + sizeof(double) + 2))",
+        "source": "cellptr = (CELLPTR)(malloc(strlen(s) + sizeof(double) + 2));"
+      },
+      {
+        "line": 122,
+        "lhs": "start",
+        "rhs": "*input",
+        "source": "start = *input;"
+      },
+      {
+        "line": 166,
+        "lhs": "rowstart",
+        "rhs": "curpos - rowwidth(frow)",
+        "source": "rowstart = curpos - rowwidth(frow);"
+      },
+      {
+        "line": 167,
+        "lhs": "colstart",
+        "rhs": "rowstart - ((fcol > 25) ? 2 : 1)",
+        "source": "colstart = rowstart - ((fcol > 25) ? 2 : 1);"
+      },
+      {
+        "line": 225,
+        "lhs": "value",
+        "rhs": "cellptr->v.f.fvalue",
+        "source": "value = cellptr->v.f.fvalue;"
+      },
+      {
+        "line": 238,
+        "lhs": "colstr[0]",
+        "rhs": "col + 'A'",
+        "source": "colstr[0] = col + 'A';"
+      },
+      {
+        "line": 241,
+        "lhs": "colstr[0]",
+        "rhs": "(col / 26) - 1 + 'A'",
+        "source": "colstr[0] = (col / 26) - 1 + 'A';"
+      },
+      {
+        "line": 242,
+        "lhs": "colstr[1]",
+        "rhs": "(col % 26) + 'A'",
+        "source": "colstr[1] = (col % 26) + 'A';"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 45,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 48,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 52,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page\t*/"
+      },
+      {
+        "line": 53,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 63,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 64,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page\t*/"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Bin/Tc3/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 45,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 48,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 52,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page\t*/"
+      },
+      {
+        "line": 53,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 63,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 64,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page\t*/"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 45,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 48,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 52,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page\t*/"
+      },
+      {
+        "line": 53,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 63,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 64,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page\t*/"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Bin/Tc3/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/TC/OUTPUT/RoofAndCurtain/TC/INCLUDE/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 44,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 48,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 49,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page   */"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page   */"
+      },
+      {
+        "line": 60,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page   */"
+      },
+      {
+        "line": 61,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page   */"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page   */"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/genetic/GRAPHICS.H",
+    "score": 43,
+    "variables": [
+      "char",
+      "linestyle",
+      "upattern",
+      "thickness",
+      "font",
+      "direction",
+      "charsize",
+      "horiz",
+      "vert",
+      "pattern",
+      "color",
+      "x",
+      "y"
+    ],
+    "expressions": [
+      {
+        "line": 45,
+        "lhs": "CGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "CGAC0      = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 46,
+        "lhs": "CGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "CGAC1      = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 48,
+        "lhs": "CGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "CGAC3      = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 50,
+        "lhs": "MCGAC0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "MCGAC0     = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 51,
+        "lhs": "MCGAC1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "MCGAC1     = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 52,
+        "lhs": "MCGAC2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "MCGAC2     = 2,  /* 320x200 palette 2; 1 page\t*/"
+      },
+      {
+        "line": 53,
+        "lhs": "MCGAC3",
+        "rhs": "3,  /* 320x200 palette 3",
+        "source": "MCGAC3     = 3,  /* 320x200 palette 3; 1 page\t*/"
+      },
+      {
+        "line": 62,
+        "lhs": "ATT400C0",
+        "rhs": "0,  /* 320x200 palette 0",
+        "source": "ATT400C0   = 0,  /* 320x200 palette 0; 1 page\t*/"
+      },
+      {
+        "line": 63,
+        "lhs": "ATT400C1",
+        "rhs": "1,  /* 320x200 palette 1",
+        "source": "ATT400C1   = 1,  /* 320x200 palette 1; 1 page\t*/"
+      },
+      {
+        "line": 64,
+        "lhs": "ATT400C2",
+        "rhs": "2,  /* 320x200 palette 2",
+        "source": "ATT400C2   = 2,  /* 320x200 palette 2; 1 page\t*/"
+      }
+    ]
+  },
+  {
+    "archive": "caimath",
+    "file": "caimath/START.PAS",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "c",
+      "ya",
+      "xa",
+      "i",
+      "d",
+      "co",
+      "l",
+      "p",
+      "xx",
+      "yy"
+    ],
+    "expressions": [
+      {
+        "line": 11,
+        "lhs": "Ya",
+        "rhs": "-88",
+        "source": "Ya := -88;"
+      },
+      {
+        "line": 12,
+        "lhs": "Xa",
+        "rhs": "round((Ya*Ya)/(4*C))",
+        "source": "Xa := round((Ya*Ya)/(4*C));"
+      },
+      {
+        "line": 16,
+        "lhs": "X",
+        "rhs": "round((Y*Y)/(4*C))",
+        "source": "X := round((Y*Y)/(4*C));"
+      },
+      {
+        "line": 30,
+        "lhs": "xa",
+        "rhs": "-88",
+        "source": "xa := -88;"
+      },
+      {
+        "line": 31,
+        "lhs": "ya",
+        "rhs": "round((xa*xa)/(4*c))",
+        "source": "ya := round((xa*xa)/(4*c));"
+      },
+      {
+        "line": 34,
+        "lhs": "Y",
+        "rhs": "round((X*X)/(4*C))",
+        "source": "Y := round((X*X)/(4*C));"
+      },
+      {
+        "line": 47,
+        "lhs": "Xa",
+        "rhs": "-105",
+        "source": "Xa := -105;"
+      },
+      {
+        "line": 48,
+        "lhs": "Ya",
+        "rhs": "round((Xa*Xa)/(4*C))",
+        "source": "Ya := round((Xa*Xa)/(4*C));"
+      },
+      {
+        "line": 51,
+        "lhs": "Y",
+        "rhs": "round((X*X)/(4*C))",
+        "source": "Y := round((X*X)/(4*C));"
+      },
+      {
+        "line": 63,
+        "lhs": "Xa",
+        "rhs": "-125",
+        "source": "Xa := -125;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/EXAMPLES/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 160,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 166,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 254,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 305,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 316,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 317,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 318,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 332,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 338,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 359,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/EXAMPLES/CBAR.C",
+    "score": 40,
+    "variables": [
+      "xdelta",
+      "ydelta",
+      "xstep",
+      "ystep",
+      "change",
+      "count",
+      "x2",
+      "y2",
+      "x3",
+      "y3",
+      "x4",
+      "y4",
+      "wfactor",
+      "hfactor"
+    ],
+    "expressions": [
+      {
+        "line": 31,
+        "lhs": "xdelta",
+        "rhs": "x2 - x1",
+        "source": "xdelta = x2 - x1;               /* Calculate the change in x coordinates */"
+      },
+      {
+        "line": 32,
+        "lhs": "ydelta",
+        "rhs": "y2 - y1",
+        "source": "ydelta = y2 - y1;               /* Calculate the change in y coordinates */"
+      },
+      {
+        "line": 35,
+        "lhs": "xdelta",
+        "rhs": "-xdelta",
+        "source": "xdelta = -xdelta;"
+      },
+      {
+        "line": 36,
+        "lhs": "xstep",
+        "rhs": "-1",
+        "source": "xstep = -1;"
+      },
+      {
+        "line": 42,
+        "lhs": "ydelta",
+        "rhs": "-ydelta",
+        "source": "ydelta = -ydelta;"
+      },
+      {
+        "line": 43,
+        "lhs": "ystep",
+        "rhs": "-1",
+        "source": "ystep = -1;"
+      },
+      {
+        "line": 107,
+        "lhs": "wfactor",
+        "rhs": "width / 5",
+        "source": "wfactor = width / 5;     /* figure out wfactor and hfactor */"
+      },
+      {
+        "line": 108,
+        "lhs": "hfactor",
+        "rhs": "height / 12",
+        "source": "hfactor = height / 12;"
+      },
+      {
+        "line": 109,
+        "lhs": "x2",
+        "rhs": "x1 + wfactor",
+        "source": "x2 = x1 + wfactor;       /* compute the location of the points on the bar */"
+      },
+      {
+        "line": 110,
+        "lhs": "x3",
+        "rhs": "x1 + width",
+        "source": "x3 = x1 + width;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Bin/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Children/TC3/BIN/HOME.C",
+    "score": 40,
+    "variables": [
+      "up",
+      "down",
+      "ph",
+      "pr",
+      "y",
+      "use",
+      "hour",
+      "min",
+      "t",
+      "sensor",
+      "chk_choice",
+      "int",
+      "chk_pos_home",
+      "chk_pos_auto",
+      "a",
+      "n",
+      "press",
+      "b",
+      "choice",
+      "m"
+    ],
+    "expressions": [
+      {
+        "line": 376,
+        "lhs": "a",
+        "rhs": "a-5",
+        "source": "a=a-5;"
+      },
+      {
+        "line": 380,
+        "lhs": "a",
+        "rhs": "a-10",
+        "source": "a=a-10;"
+      },
+      {
+        "line": 383,
+        "lhs": "a",
+        "rhs": "a-14",
+        "source": "a=a-14;"
+      },
+      {
+        "line": 406,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 410,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 414,
+        "lhs": "a",
+        "rhs": "y-260",
+        "source": "a=y-260;\ta=a/20;"
+      },
+      {
+        "line": 418,
+        "lhs": "a",
+        "rhs": "y-260",
+        "source": "a=y-260;\ta=a/20;"
+      },
+      {
+        "line": 429,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 433,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 867,
+        "lhs": "a",
+        "rhs": "area->tm_mday",
+        "source": "a = area->tm_mday;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/ClothLine/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/BIN/ASSIGN1.CPP",
+    "score": 40,
+    "variables": [
+      "list",
+      "any1",
+      "a",
+      "b",
+      "v",
+      "temp",
+      "m",
+      "t",
+      "i",
+      "j",
+      "q",
+      "k",
+      "min",
+      "max1",
+      "any2"
+    ],
+    "expressions": [
+      {
+        "line": 33,
+        "lhs": "list[b]",
+        "rhs": "list[b-1]",
+        "source": "list[b] = list[b-1];"
+      },
+      {
+        "line": 34,
+        "lhs": "b",
+        "rhs": "b - 1",
+        "source": "b = b - 1;"
+      },
+      {
+        "line": 75,
+        "lhs": "m",
+        "rhs": "(max2-min2+1)/2",
+        "source": "m = (max2-min2+1)/2;"
+      },
+      {
+        "line": 77,
+        "lhs": "max2",
+        "rhs": "max2-1",
+        "source": "max2=max2-1;"
+      },
+      {
+        "line": 83,
+        "lhs": "i",
+        "rhs": "min2+1",
+        "source": "i = min2+1;"
+      },
+      {
+        "line": 84,
+        "lhs": "j",
+        "rhs": "max2-1",
+        "source": "j = max2-1;"
+      },
+      {
+        "line": 89,
+        "lhs": "i",
+        "rhs": "i+1",
+        "source": "i=i+1;"
+      },
+      {
+        "line": 93,
+        "lhs": "j",
+        "rhs": "j-1",
+        "source": "j=j-1;"
+      },
+      {
+        "line": 126,
+        "lhs": "k",
+        "rhs": "rand()",
+        "source": "k = rand();"
+      },
+      {
+        "line": 137,
+        "lhs": "i",
+        "rhs": "i + 1",
+        "source": "i = i + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/Project/Roof/TC/BIN/SU.CPP",
+    "score": 40,
+    "variables": [
+      "objlength",
+      "start_loc",
+      "add_length",
+      "plus_minus",
+      "csect",
+      "ascii",
+      "locctr",
+      "proglength",
+      "progstart",
+      "textstart",
+      "textaddr",
+      "textlength",
+      "textarray",
+      "pc",
+      "base",
+      "current_mod",
+      "litpool",
+      "litpool1",
+      "litpool2",
+      "linenum"
+    ],
+    "expressions": [
+      {
+        "line": 306,
+        "lhs": "tempo",
+        "rhs": "optab[i+1].opcode",
+        "source": "tempo = optab[i+1].opcode;"
+      },
+      {
+        "line": 397,
+        "lhs": "hash",
+        "rhs": "hash + (unsigned char)(symbol[i])",
+        "source": "hash = hash + (unsigned char)(symbol[i]);"
+      },
+      {
+        "line": 398,
+        "lhs": "hash",
+        "rhs": "hash % (SYMTABLIMIT + 1)",
+        "source": "hash = hash % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 419,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 450,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 469,
+        "lhs": "hash",
+        "rhs": "hash + (unsigned char)(literal[i])",
+        "source": "hash = hash + (unsigned char)(literal[i]);"
+      },
+      {
+        "line": 470,
+        "lhs": "hash",
+        "rhs": "hash % (SYMTABLIMIT + 1)",
+        "source": "hash = hash % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 491,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 509,
+        "lhs": "textlength",
+        "rhs": "textlength + littab[i].length",
+        "source": "textlength = textlength + littab[i].length;"
+      },
+      {
+        "line": 510,
+        "lhs": "textaddr",
+        "rhs": "locctr + littab[i].length / 2",
+        "source": "textaddr = locctr + littab[i].length / 2;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/SORT/TEST.PAS",
+    "score": 40,
+    "variables": [
+      "age",
+      "oldh",
+      "oldm",
+      "olds",
+      "oldTime",
+      "Timeuse",
+      "i",
+      "Tmp",
+      "a",
+      "k",
+      "b",
+      "line",
+      "code",
+      "g",
+      "x",
+      "y",
+      "oldTm",
+      "timecomfort",
+      "maxp"
+    ],
+    "expressions": [
+      {
+        "line": 16,
+        "lhs": "Stoptopic",
+        "rhs": "'*'",
+        "source": "Stoptopic = '*';   {for stop each topic}"
+      },
+      {
+        "line": 254,
+        "lhs": "secondToForm",
+        "rhs": "s1+':'+s2",
+        "source": "secondToForm := s1+':'+s2;"
+      },
+      {
+        "line": 296,
+        "lhs": "st",
+        "rhs": "secondToform(Round((time-oldtime)/18.2))",
+        "source": "st := secondToform(Round((time-oldtime)/18.2));"
+      },
+      {
+        "line": 432,
+        "lhs": "topic[t]",
+        "rhs": "random(21)",
+        "source": "topic[t]:=random(21);"
+      },
+      {
+        "line": 434,
+        "lhs": "se",
+        "rhs": "se+[topic[t]]",
+        "source": "se := se+[topic[t]];"
+      },
+      {
+        "line": 455,
+        "lhs": "Timeuse",
+        "rhs": "Round((Time-oldTm)/18.2)",
+        "source": "Timeuse := Round((Time-oldTm)/18.2);"
+      },
+      {
+        "line": 499,
+        "lhs": "i",
+        "rhs": "random(15)+1",
+        "source": "i := random(15)+1;"
+      },
+      {
+        "line": 578,
+        "lhs": "countArea",
+        "rhs": "CountArea+2",
+        "source": "countArea := CountArea+2;"
+      },
+      {
+        "line": 586,
+        "lhs": "upscrollbox",
+        "rhs": "46+((countp-1)*(310 div maxp))",
+        "source": "upscrollbox := 46+((countp-1)*(310 div maxp));"
+      },
+      {
+        "line": 587,
+        "lhs": "downscrollBox",
+        "rhs": "46+(countp*(310 div maxp))",
+        "source": "downscrollBox :=46+(countp*(310 div maxp));"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/SORT/TESTA.PAS",
+    "score": 40,
+    "variables": [
+      "attr",
+      "age",
+      "oldh",
+      "oldm",
+      "olds",
+      "oldTime",
+      "Timeuse",
+      "i",
+      "Tmp",
+      "a",
+      "k",
+      "b",
+      "line",
+      "code",
+      "g",
+      "x",
+      "y",
+      "oldTm",
+      "timecomfort",
+      "maxp"
+    ],
+    "expressions": [
+      {
+        "line": 19,
+        "lhs": "Stoptopic",
+        "rhs": "'*'",
+        "source": "Stoptopic = '*';   {for stop each topic}"
+      },
+      {
+        "line": 271,
+        "lhs": "secondToForm",
+        "rhs": "s1+':'+s2",
+        "source": "secondToForm := s1+':'+s2;"
+      },
+      {
+        "line": 311,
+        "lhs": "st",
+        "rhs": "secondToform(Round((time-oldtime)/18.2))",
+        "source": "st := secondToform(Round((time-oldtime)/18.2));"
+      },
+      {
+        "line": 445,
+        "lhs": "topic[t]",
+        "rhs": "random(21)",
+        "source": "topic[t]:=random(21);"
+      },
+      {
+        "line": 447,
+        "lhs": "se",
+        "rhs": "se+[topic[t]]",
+        "source": "se := se+[topic[t]];"
+      },
+      {
+        "line": 470,
+        "lhs": "Timeuse",
+        "rhs": "Round((Time-oldTm)/18.2)",
+        "source": "Timeuse := Round((Time-oldTm)/18.2);"
+      },
+      {
+        "line": 512,
+        "lhs": "i",
+        "rhs": "random(15)+1",
+        "source": "i := random(15)+1;"
+      },
+      {
+        "line": 591,
+        "lhs": "countArea",
+        "rhs": "CountArea+2",
+        "source": "countArea := CountArea+2;"
+      },
+      {
+        "line": 599,
+        "lhs": "upscrollbox",
+        "rhs": "46+((countp-1)*(310 div maxp))",
+        "source": "upscrollbox := 46+((countp-1)*(310 div maxp));"
+      },
+      {
+        "line": 600,
+        "lhs": "downscrollBox",
+        "rhs": "46+(countp*(310 div maxp))",
+        "source": "downscrollBox :=46+(countp*(310 div maxp));"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 160,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 166,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 254,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 305,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 316,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 317,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 318,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 332,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 338,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 359,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/CBAR.C",
+    "score": 40,
+    "variables": [
+      "xdelta",
+      "ydelta",
+      "xstep",
+      "ystep",
+      "change",
+      "count",
+      "x2",
+      "y2",
+      "x3",
+      "y3",
+      "x4",
+      "y4",
+      "wfactor",
+      "hfactor"
+    ],
+    "expressions": [
+      {
+        "line": 31,
+        "lhs": "xdelta",
+        "rhs": "x2 - x1",
+        "source": "xdelta = x2 - x1;               /* Calculate the change in x coordinates */"
+      },
+      {
+        "line": 32,
+        "lhs": "ydelta",
+        "rhs": "y2 - y1",
+        "source": "ydelta = y2 - y1;               /* Calculate the change in y coordinates */"
+      },
+      {
+        "line": 35,
+        "lhs": "xdelta",
+        "rhs": "-xdelta",
+        "source": "xdelta = -xdelta;"
+      },
+      {
+        "line": 36,
+        "lhs": "xstep",
+        "rhs": "-1",
+        "source": "xstep = -1;"
+      },
+      {
+        "line": 42,
+        "lhs": "ydelta",
+        "rhs": "-ydelta",
+        "source": "ydelta = -ydelta;"
+      },
+      {
+        "line": 43,
+        "lhs": "ystep",
+        "rhs": "-1",
+        "source": "ystep = -1;"
+      },
+      {
+        "line": 107,
+        "lhs": "wfactor",
+        "rhs": "width / 5",
+        "source": "wfactor = width / 5;     /* figure out wfactor and hfactor */"
+      },
+      {
+        "line": 108,
+        "lhs": "hfactor",
+        "rhs": "height / 12",
+        "source": "hfactor = height / 12;"
+      },
+      {
+        "line": 109,
+        "lhs": "x2",
+        "rhs": "x1 + wfactor",
+        "source": "x2 = x1 + wfactor;       /* compute the location of the points on the bar */"
+      },
+      {
+        "line": 110,
+        "lhs": "x3",
+        "rhs": "x1 + width",
+        "source": "x3 = x1 + width;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/DOUBLE/DOUBBLE.PAS",
+    "score": 40,
+    "variables": [
+      "code",
+      "Side1",
+      "A",
+      "B",
+      "Side2",
+      "C",
+      "D",
+      "Raduis",
+      "E",
+      "F",
+      "a",
+      "b",
+      "c",
+      "x",
+      "y",
+      "Meanweek",
+      "Maxweek",
+      "Minweek",
+      "i",
+      "j"
+    ],
+    "expressions": [
+      {
+        "line": 17,
+        "lhs": "s",
+        "rhs": "s+c",
+        "source": "s := s+c;"
+      },
+      {
+        "line": 62,
+        "lhs": "a",
+        "rhs": "side1*side1",
+        "source": "a := side1*side1;"
+      },
+      {
+        "line": 63,
+        "lhs": "b",
+        "rhs": "4*side1",
+        "source": "b := 4*side1;"
+      },
+      {
+        "line": 97,
+        "lhs": "c",
+        "rhs": "side1*side2",
+        "source": "c := side1*side2;"
+      },
+      {
+        "line": 98,
+        "lhs": "d",
+        "rhs": "2*(side1+side2)",
+        "source": "d := 2*(side1+side2);"
+      },
+      {
+        "line": 130,
+        "lhs": "e",
+        "rhs": "pi * (raduis * raduis)",
+        "source": "e := pi * (raduis * raduis);"
+      },
+      {
+        "line": 131,
+        "lhs": "f",
+        "rhs": "2 * pi * raduis",
+        "source": "f := 2 * pi * raduis;"
+      },
+      {
+        "line": 208,
+        "lhs": "x",
+        "rhs": "a*a",
+        "source": "x := a*a;"
+      },
+      {
+        "line": 209,
+        "lhs": "y",
+        "rhs": "(b*b) + (c*c)",
+        "source": "y := (b*b) + (c*c);"
+      },
+      {
+        "line": 274,
+        "lhs": "sumt",
+        "rhs": "sumt+t[i,j]",
+        "source": "sumt:=sumt+t[i,j];"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/EXAMP/Project/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/EXAMP/Project/BLOCK.C",
+    "score": 40,
+    "variables": [
+      "id",
+      "num",
+      "i",
+      "j",
+      "chk",
+      "a",
+      "b",
+      "c",
+      "d",
+      "str",
+      "press",
+      "x",
+      "y",
+      "k",
+      "l",
+      "m",
+      "sum",
+      "aa",
+      "w",
+      "sw"
+    ],
+    "expressions": [
+      {
+        "line": 720,
+        "lhs": "data[j]",
+        "rhs": "data[j+1]",
+        "source": "data[j]=data[j+1];"
+      },
+      {
+        "line": 737,
+        "lhs": "data[j]",
+        "rhs": "data[j+1]",
+        "source": "data[j]=data[j+1];"
+      },
+      {
+        "line": 3008,
+        "lhs": "led_t[i]",
+        "rhs": "z->b[i]",
+        "source": "led_t[i]=z->b[i];"
+      },
+      {
+        "line": 3010,
+        "lhs": "speed[i]",
+        "rhs": "z->c[i]",
+        "source": "speed[i]=z->c[i];"
+      },
+      {
+        "line": 3161,
+        "lhs": "c_led[i]",
+        "rhs": "z->a[i]",
+        "source": "c_led[i]=z->a[i];"
+      },
+      {
+        "line": 3303,
+        "lhs": "i",
+        "rhs": "z->i",
+        "source": "i=z->i;"
+      },
+      {
+        "line": 3304,
+        "lhs": "j",
+        "rhs": "z->j",
+        "source": "j=z->j;"
+      },
+      {
+        "line": 3347,
+        "lhs": "j",
+        "rhs": "j-6",
+        "source": "j=j-6;"
+      },
+      {
+        "line": 3435,
+        "lhs": "i",
+        "rhs": "z->i",
+        "source": "i=z->i;"
+      },
+      {
+        "line": 3559,
+        "lhs": "sw[j]",
+        "rhs": "z->a[j]",
+        "source": "sw[j]=z->a[j];"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/FACE.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "radius",
+      "mood",
+      "ch",
+      "i",
+      "color",
+      "r",
+      "imgsize",
+      "dif",
+      "x1",
+      "x2",
+      "y1",
+      "y2"
+    ],
+    "expressions": [
+      {
+        "line": 33,
+        "lhs": "x",
+        "rhs": "face1->position.x=320",
+        "source": "x=face1->position.x=320;"
+      },
+      {
+        "line": 34,
+        "lhs": "y",
+        "rhs": "face1->position.y=180",
+        "source": "y=face1->position.y=180;"
+      },
+      {
+        "line": 37,
+        "lhs": "r",
+        "rhs": "face1->radius",
+        "source": "r=face1->radius;"
+      },
+      {
+        "line": 52,
+        "lhs": "x",
+        "rhs": "face1->position.x",
+        "source": "x=face1->position.x;"
+      },
+      {
+        "line": 53,
+        "lhs": "y",
+        "rhs": "face1->position.y",
+        "source": "y=face1->position.y;"
+      },
+      {
+        "line": 54,
+        "lhs": "r",
+        "rhs": "face1->radius",
+        "source": "r=face1->radius;"
+      },
+      {
+        "line": 66,
+        "lhs": "r",
+        "rhs": "face1->radius",
+        "source": "r=face1->radius;"
+      },
+      {
+        "line": 67,
+        "lhs": "x1",
+        "rhs": "face1->position.x-r/2",
+        "source": "x1=face1->position.x-r/2;"
+      },
+      {
+        "line": 68,
+        "lhs": "y1",
+        "rhs": "face1->position.y-r/4",
+        "source": "y1=face1->position.y-r/4;"
+      },
+      {
+        "line": 69,
+        "lhs": "x2",
+        "rhs": "face1->position.x+r/2",
+        "source": "x2=face1->position.x+r/2;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/LENSCAI/LENSCAI.PAS",
+    "score": 40,
+    "variables": [
+      "Row",
+      "Col",
+      "MaxColumn",
+      "Maxmenu",
+      "CharNo",
+      "ByteNo",
+      "Ind",
+      "Len",
+      "xx",
+      "yy",
+      "x2",
+      "y2",
+      "c1",
+      "c2",
+      "x",
+      "y",
+      "d",
+      "yinc",
+      "i",
+      "f"
+    ],
+    "expressions": [
+      {
+        "line": 109,
+        "lhs": "x2",
+        "rhs": "x1+12*9+8",
+        "source": "x2:=x1+12*9+8;"
+      },
+      {
+        "line": 110,
+        "lhs": "y2",
+        "rhs": "y1+27",
+        "source": "y2:=y1+27;"
+      },
+      {
+        "line": 211,
+        "lhs": "x",
+        "rhs": "Random(GetMaxX)",
+        "source": "x := Random(GetMaxX);"
+      },
+      {
+        "line": 212,
+        "lhs": "y",
+        "rhs": "Random(GetMaxY)",
+        "source": "y := Random(GetMaxY);"
+      },
+      {
+        "line": 213,
+        "lhs": "d",
+        "rhs": "Random(7)",
+        "source": "d := Random(7);"
+      },
+      {
+        "line": 225,
+        "lhs": "x",
+        "rhs": "x + 1 * (d + 1)",
+        "source": "x := x + 1 * (d + 1);"
+      },
+      {
+        "line": 228,
+        "lhs": "y",
+        "rhs": "y + 0  * (d + 1)",
+        "source": "y := y + 0  * (d + 1);"
+      },
+      {
+        "line": 320,
+        "lhs": "St",
+        "rhs": "St+p",
+        "source": "St:=St+p;"
+      },
+      {
+        "line": 350,
+        "lhs": "m",
+        "rhs": "I/O",
+        "source": "m :=I/O;"
+      },
+      {
+        "line": 383,
+        "lhs": "sdat",
+        "rhs": "(s*f)/(s-f)",
+        "source": "sdat :=(s*f)/(s-f);"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Bin/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Children/TC3/BIN/HOME.C",
+    "score": 40,
+    "variables": [
+      "up",
+      "down",
+      "ph",
+      "pr",
+      "y",
+      "use",
+      "hour",
+      "min",
+      "t",
+      "sensor",
+      "chk_choice",
+      "int",
+      "chk_pos_home",
+      "chk_pos_auto",
+      "a",
+      "n",
+      "press",
+      "b",
+      "choice",
+      "m"
+    ],
+    "expressions": [
+      {
+        "line": 376,
+        "lhs": "a",
+        "rhs": "a-5",
+        "source": "a=a-5;"
+      },
+      {
+        "line": 380,
+        "lhs": "a",
+        "rhs": "a-10",
+        "source": "a=a-10;"
+      },
+      {
+        "line": 383,
+        "lhs": "a",
+        "rhs": "a-14",
+        "source": "a=a-14;"
+      },
+      {
+        "line": 406,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 410,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 414,
+        "lhs": "a",
+        "rhs": "y-260",
+        "source": "a=y-260;\ta=a/20;"
+      },
+      {
+        "line": 418,
+        "lhs": "a",
+        "rhs": "y-260",
+        "source": "a=y-260;\ta=a/20;"
+      },
+      {
+        "line": 429,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 433,
+        "lhs": "a",
+        "rhs": "y-130",
+        "source": "a=y-130;\ta=a/20;"
+      },
+      {
+        "line": 867,
+        "lhs": "a",
+        "rhs": "area->tm_mday",
+        "source": "a = area->tm_mday;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/ClothLine/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/BGI/BGIDEMO.C",
+    "score": 40,
+    "variables": [
+      "x",
+      "y",
+      "GraphDriver",
+      "GraphMode",
+      "AspectRatio",
+      "MaxX",
+      "MaxY",
+      "MaxColors",
+      "ErrorCode",
+      "gprintf",
+      "int",
+      "char",
+      "xasp",
+      "yasp",
+      "driver",
+      "mode",
+      "buffer",
+      "font",
+      "ch",
+      "wwidth"
+    ],
+    "expressions": [
+      {
+        "line": 163,
+        "lhs": "MaxColors",
+        "rhs": "getmaxcolor() + 1",
+        "source": "MaxColors = getmaxcolor() + 1;\t/* Read maximum number of colors*/"
+      },
+      {
+        "line": 169,
+        "lhs": "AspectRatio",
+        "rhs": "(double)xasp / (double)yasp",
+        "source": "AspectRatio = (double)xasp / (double)yasp; /* Get correction factor\t*/"
+      },
+      {
+        "line": 257,
+        "lhs": "wwidth",
+        "rhs": "vp.right - vp.left",
+        "source": "wwidth = vp.right - vp.left;\t/* Determine the window width\t*/"
+      },
+      {
+        "line": 308,
+        "lhs": "h",
+        "rhs": "3 * textheight( \"H\" )",
+        "source": "h = 3 * textheight( \"H\" );"
+      },
+      {
+        "line": 319,
+        "lhs": "xstep",
+        "rhs": "((vp.right-vp.left) - (2*h)) / 10",
+        "source": "xstep = ((vp.right-vp.left) - (2*h)) / 10;"
+      },
+      {
+        "line": 320,
+        "lhs": "ystep",
+        "rhs": "((vp.bottom-vp.top) - (2*h)) / 5",
+        "source": "ystep = ((vp.bottom-vp.top) - (2*h)) / 5;"
+      },
+      {
+        "line": 321,
+        "lhs": "j",
+        "rhs": "(vp.bottom-vp.top) - h",
+        "source": "j = (vp.bottom-vp.top) - h;"
+      },
+      {
+        "line": 335,
+        "lhs": "color",
+        "rhs": "random( MaxColors )",
+        "source": "color = random( MaxColors );"
+      },
+      {
+        "line": 341,
+        "lhs": "bheight",
+        "rhs": "(vp.bottom-vp.top) - h - 1",
+        "source": "bheight = (vp.bottom-vp.top) - h - 1;"
+      },
+      {
+        "line": 362,
+        "lhs": "color",
+        "rhs": "random( MaxColors-1 )+1",
+        "source": "color = random( MaxColors-1 )+1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/BIN/ASSIGN1.CPP",
+    "score": 40,
+    "variables": [
+      "list",
+      "any1",
+      "a",
+      "b",
+      "v",
+      "temp",
+      "m",
+      "t",
+      "i",
+      "j",
+      "q",
+      "k",
+      "min",
+      "max1",
+      "any2"
+    ],
+    "expressions": [
+      {
+        "line": 33,
+        "lhs": "list[b]",
+        "rhs": "list[b-1]",
+        "source": "list[b] = list[b-1];"
+      },
+      {
+        "line": 34,
+        "lhs": "b",
+        "rhs": "b - 1",
+        "source": "b = b - 1;"
+      },
+      {
+        "line": 75,
+        "lhs": "m",
+        "rhs": "(max2-min2+1)/2",
+        "source": "m = (max2-min2+1)/2;"
+      },
+      {
+        "line": 77,
+        "lhs": "max2",
+        "rhs": "max2-1",
+        "source": "max2=max2-1;"
+      },
+      {
+        "line": 83,
+        "lhs": "i",
+        "rhs": "min2+1",
+        "source": "i = min2+1;"
+      },
+      {
+        "line": 84,
+        "lhs": "j",
+        "rhs": "max2-1",
+        "source": "j = max2-1;"
+      },
+      {
+        "line": 89,
+        "lhs": "i",
+        "rhs": "i+1",
+        "source": "i=i+1;"
+      },
+      {
+        "line": 93,
+        "lhs": "j",
+        "rhs": "j-1",
+        "source": "j=j-1;"
+      },
+      {
+        "line": 126,
+        "lhs": "k",
+        "rhs": "rand()",
+        "source": "k = rand();"
+      },
+      {
+        "line": 137,
+        "lhs": "i",
+        "rhs": "i + 1",
+        "source": "i = i + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/Project/Roof/TC/BIN/SU.CPP",
+    "score": 40,
+    "variables": [
+      "objlength",
+      "start_loc",
+      "add_length",
+      "plus_minus",
+      "csect",
+      "ascii",
+      "locctr",
+      "proglength",
+      "progstart",
+      "textstart",
+      "textaddr",
+      "textlength",
+      "textarray",
+      "pc",
+      "base",
+      "current_mod",
+      "litpool",
+      "litpool1",
+      "litpool2",
+      "linenum"
+    ],
+    "expressions": [
+      {
+        "line": 306,
+        "lhs": "tempo",
+        "rhs": "optab[i+1].opcode",
+        "source": "tempo = optab[i+1].opcode;"
+      },
+      {
+        "line": 397,
+        "lhs": "hash",
+        "rhs": "hash + (unsigned char)(symbol[i])",
+        "source": "hash = hash + (unsigned char)(symbol[i]);"
+      },
+      {
+        "line": 398,
+        "lhs": "hash",
+        "rhs": "hash % (SYMTABLIMIT + 1)",
+        "source": "hash = hash % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 419,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 450,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 469,
+        "lhs": "hash",
+        "rhs": "hash + (unsigned char)(literal[i])",
+        "source": "hash = hash + (unsigned char)(literal[i]);"
+      },
+      {
+        "line": 470,
+        "lhs": "hash",
+        "rhs": "hash % (SYMTABLIMIT + 1)",
+        "source": "hash = hash % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 491,
+        "lhs": "ptr",
+        "rhs": "(ptr + 1) % (SYMTABLIMIT + 1)",
+        "source": "ptr = (ptr + 1) % (SYMTABLIMIT + 1);"
+      },
+      {
+        "line": 509,
+        "lhs": "textlength",
+        "rhs": "textlength + littab[i].length",
+        "source": "textlength = textlength + littab[i].length;"
+      },
+      {
+        "line": 510,
+        "lhs": "textaddr",
+        "rhs": "locctr + littab[i].length / 2",
+        "source": "textaddr = locctr + littab[i].length / 2;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S26/TETRIS.C",
+    "score": 40,
+    "variables": [
+      "RightArrow",
+      "LeftArrow",
+      "UpArrow",
+      "DownArrow",
+      "Space",
+      "Esc",
+      "far",
+      "TypeTris",
+      "Tris1",
+      "Tris2",
+      "Tris3",
+      "Tris4",
+      "Tris5",
+      "Tris6",
+      "BColor",
+      "No_Tris",
+      "NumTris",
+      "OldNumTris",
+      "ArrayTris",
+      "ColorTris"
+    ],
+    "expressions": [
+      {
+        "line": 43,
+        "lhs": "ptr0",
+        "rhs": "FirstAdr[page] + 1",
+        "source": "ptr0 = FirstAdr[page] + 1;"
+      },
+      {
+        "line": 44,
+        "lhs": "ptr1",
+        "rhs": "FirstAdr[3] + 1",
+        "source": "ptr1 = FirstAdr[3] + 1;"
+      },
+      {
+        "line": 80,
+        "lhs": "ptr",
+        "rhs": "TypeTris[num] + (n << 3)",
+        "source": "ptr = TypeTris[num] + (n << 3);"
+      },
+      {
+        "line": 92,
+        "lhs": "ptr",
+        "rhs": "TypeTris[num] + (NumTris << 3)",
+        "source": "ptr = TypeTris[num] + (NumTris << 3);"
+      },
+      {
+        "line": 104,
+        "lhs": "ptr",
+        "rhs": "TypeTris[num] + (NumTris << 3)",
+        "source": "ptr = TypeTris[num] + (NumTris << 3);"
+      },
+      {
+        "line": 107,
+        "lhs": "Y",
+        "rhs": "YTris + *(ptr + 1)",
+        "source": "Y = YTris + *(ptr + 1);"
+      },
+      {
+        "line": 119,
+        "lhs": "pl1",
+        "rhs": "48+(sin(k / 30) * 47.0 + 256 * (int)(47 * cos(k / 40)))",
+        "source": "pl1 = 48+(sin(k / 30) * 47.0 + 256 * (int)(47 * cos(k / 40)));"
+      },
+      {
+        "line": 120,
+        "lhs": "pl2",
+        "rhs": "48+(sin(k / 14) * 47.0 + 256 * (int)(47 * sin(k / 32))) - pl1",
+        "source": "pl2 = 48+(sin(k / 14) * 47.0 + 256 * (int)(47 * sin(k / 32))) - pl1;"
+      },
+      {
+        "line": 121,
+        "lhs": "ptr0",
+        "rhs": "BKdata + pl1",
+        "source": "ptr0 = BKdata + pl1;"
+      },
+      {
+        "line": 126,
+        "lhs": "color",
+        "rhs": "((*ptr0++) + pl2)",
+        "source": "color = ((*ptr0++) + pl2);"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S33/BOMBER.C",
+    "score": 40,
+    "variables": [
+      "RightArrow",
+      "LeftArrow",
+      "UpArrow",
+      "DownArrow",
+      "Space",
+      "Esc",
+      "ch",
+      "ScanCode",
+      "BitImage",
+      "i",
+      "ptr",
+      "j",
+      "memtmp",
+      "width",
+      "height",
+      "ptr1",
+      "Map",
+      "Skip",
+      "MAXGOST1",
+      "MAXBOOM1"
+    ],
+    "expressions": [
+      {
+        "line": 219,
+        "lhs": "width",
+        "rhs": "*ptr1++",
+        "source": "width = *ptr1++; height = *ptr1++;"
+      },
+      {
+        "line": 226,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++; height = *ptr++;"
+      },
+      {
+        "line": 243,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++;"
+      },
+      {
+        "line": 244,
+        "lhs": "height",
+        "rhs": "*ptr++",
+        "source": "height = *ptr++;"
+      },
+      {
+        "line": 245,
+        "lhs": "BitImage[num]",
+        "rhs": "malloc((width << 1) * height + 2)",
+        "source": "BitImage[num] = malloc((width << 1) * height + 2);"
+      },
+      {
+        "line": 264,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++; height = *ptr++;"
+      },
+      {
+        "line": 265,
+        "lhs": "BitImage[num1]",
+        "rhs": "malloc(width * height + 2)",
+        "source": "BitImage[num1] = malloc(width * height + 2);"
+      },
+      {
+        "line": 322,
+        "lhs": "i",
+        "rhs": "(x - 5) / 12",
+        "source": "i = (x - 5) / 12; j = (y - 3) / 12;"
+      },
+      {
+        "line": 362,
+        "lhs": "Addx",
+        "rhs": "Gxgost[i] + addmove[Gran[i]][0]",
+        "source": "Addx = Gxgost[i] + addmove[Gran[i]][0];"
+      },
+      {
+        "line": 363,
+        "lhs": "Addy",
+        "rhs": "Gygost[i] + addmove[Gran[i]][1]",
+        "source": "Addy = Gygost[i] + addmove[Gran[i]][1];"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S34/CUTSPRIT.C",
+    "score": 40,
+    "variables": [
+      "far",
+      "int",
+      "i",
+      "j",
+      "x1",
+      "y1",
+      "MouseX",
+      "MouseY",
+      "oMouseX",
+      "oMouseY",
+      "mousebutt",
+      "StMouse",
+      "MouseT",
+      "MouseT1",
+      "Palette",
+      "Image",
+      "Back",
+      "namefile",
+      "Numi",
+      "Post"
+    ],
+    "expressions": [
+      {
+        "line": 20,
+        "lhs": "LINE_Y[i]",
+        "rhs": "i * 320",
+        "source": "LINE_Y[i] = i * 320;"
+      },
+      {
+        "line": 68,
+        "lhs": "x1",
+        "rhs": "x0 + *ptr++",
+        "source": "x1 = x0 + *ptr++; y1 = y0 + *ptr++;"
+      },
+      {
+        "line": 213,
+        "lhs": "StMouse",
+        "rhs": "-1",
+        "source": "StMouse = -1;"
+      },
+      {
+        "line": 284,
+        "lhs": "Membuf",
+        "rhs": "malloc(WHeight * WWidth)",
+        "source": "Membuf = malloc(WHeight * WWidth);"
+      },
+      {
+        "line": 290,
+        "lhs": "l",
+        "rhs": "c - 192",
+        "source": "l = c - 192;"
+      },
+      {
+        "line": 365,
+        "lhs": "oGx",
+        "rhs": "FGx + 1",
+        "source": "oGx  = FGx + 1;"
+      },
+      {
+        "line": 367,
+        "lhs": "oGy",
+        "rhs": "FGy + 1",
+        "source": "oGy  = FGy + 1;"
+      },
+      {
+        "line": 398,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width  = *ptr++;"
+      },
+      {
+        "line": 399,
+        "lhs": "height",
+        "rhs": "*ptr++",
+        "source": "height = *ptr++;"
+      },
+      {
+        "line": 416,
+        "lhs": "red",
+        "rhs": "*ptr++",
+        "source": "red   = *ptr++;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S35/JUPITER.C",
+    "score": 40,
+    "variables": [
+      "Radius",
+      "Diameter",
+      "Circum",
+      "Rah",
+      "image",
+      "ImgWidth",
+      "ImgHeight",
+      "TRFV",
+      "char",
+      "Palette",
+      "i",
+      "ptr",
+      "curr_size",
+      "navail_bytes",
+      "nbits_left",
+      "long",
+      "fc",
+      "oc",
+      "c",
+      "clear"
+    ],
+    "expressions": [
+      {
+        "line": 50,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 54,
+        "lhs": "ret",
+        "rhs": "b1 >> (8 - nbits_left)",
+        "source": "ret = b1 >> (8 - nbits_left);"
+      },
+      {
+        "line": 61,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 88,
+        "lhs": "ImgWidth",
+        "rhs": "(buf[6] << 8) + buf[5]",
+        "source": "ImgWidth  = (buf[6] << 8) + buf[5];"
+      },
+      {
+        "line": 89,
+        "lhs": "ImgHeight",
+        "rhs": "(buf[8] << 8) + buf[7]",
+        "source": "ImgHeight = (buf[8] << 8) + buf[7];"
+      },
+      {
+        "line": 90,
+        "lhs": "buffer",
+        "rhs": "malloc(ImgWidth * ImgHeight)",
+        "source": "buffer = malloc(ImgWidth * ImgHeight);"
+      },
+      {
+        "line": 97,
+        "lhs": "stack",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "stack  = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 98,
+        "lhs": "suffix",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "suffix = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 99,
+        "lhs": "prefix",
+        "rhs": "malloc(sizeof(int) * (MAX_CODES + 1))",
+        "source": "prefix = malloc(sizeof(int) * (MAX_CODES + 1));"
+      },
+      {
+        "line": 101,
+        "lhs": "curr_size",
+        "rhs": "size + 1",
+        "source": "curr_size = size + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S36/VESA24.C",
+    "score": 40,
+    "variables": [
+      "width",
+      "height",
+      "pal",
+      "IMG",
+      "far",
+      "adrx",
+      "adry",
+      "banky",
+      "CUfont",
+      "initvesa24",
+      "i",
+      "curr_size",
+      "navail_bytes",
+      "nbits_left",
+      "long",
+      "fc",
+      "oc",
+      "c",
+      "clear",
+      "ending"
+    ],
+    "expressions": [
+      {
+        "line": 28,
+        "lhs": "ptrscreen",
+        "rhs": "vgamem + adrx[x] + adry[y]",
+        "source": "ptrscreen = vgamem + adrx[x] + adry[y];"
+      },
+      {
+        "line": 34,
+        "lhs": "adrx[i]",
+        "rhs": "i * 3",
+        "source": "adrx[i] = i * 3; /* one pixel equ 3 byte */"
+      },
+      {
+        "line": 75,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 79,
+        "lhs": "ret",
+        "rhs": "b1 >> (8 - nbits_left)",
+        "source": "ret = b1 >> (8 - nbits_left);"
+      },
+      {
+        "line": 86,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 119,
+        "lhs": "ptr",
+        "rhs": "img->IMG",
+        "source": "ptr    = img->IMG;"
+      },
+      {
+        "line": 124,
+        "lhs": "stack",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "stack  = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 125,
+        "lhs": "suffix",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "suffix = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 126,
+        "lhs": "prefix",
+        "rhs": "malloc(sizeof(int) * (MAX_CODES + 1))",
+        "source": "prefix = malloc(sizeof(int) * (MAX_CODES + 1));"
+      },
+      {
+        "line": 128,
+        "lhs": "curr_size",
+        "rhs": "size + 1",
+        "source": "curr_size = size + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S37/VESA24.C",
+    "score": 40,
+    "variables": [
+      "width",
+      "height",
+      "pal",
+      "IMG",
+      "far",
+      "adrx",
+      "adry",
+      "banky",
+      "CUfont",
+      "initvesa24",
+      "i",
+      "curr_size",
+      "navail_bytes",
+      "nbits_left",
+      "long",
+      "fc",
+      "oc",
+      "c",
+      "clear",
+      "ending"
+    ],
+    "expressions": [
+      {
+        "line": 28,
+        "lhs": "ptrscreen",
+        "rhs": "vgamem + adrx[x] + adry[y]",
+        "source": "ptrscreen = vgamem + adrx[x] + adry[y];"
+      },
+      {
+        "line": 34,
+        "lhs": "adrx[i]",
+        "rhs": "i * 3",
+        "source": "adrx[i] = i * 3; /* one pixel equ 3 byte */"
+      },
+      {
+        "line": 75,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 79,
+        "lhs": "ret",
+        "rhs": "b1 >> (8 - nbits_left)",
+        "source": "ret = b1 >> (8 - nbits_left);"
+      },
+      {
+        "line": 86,
+        "lhs": "b1",
+        "rhs": "*pbytes++",
+        "source": "b1 = *pbytes++;"
+      },
+      {
+        "line": 119,
+        "lhs": "ptr",
+        "rhs": "img->IMG",
+        "source": "ptr    = img->IMG;"
+      },
+      {
+        "line": 124,
+        "lhs": "stack",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "stack  = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 125,
+        "lhs": "suffix",
+        "rhs": "malloc(MAX_CODES + 1)",
+        "source": "suffix = malloc(MAX_CODES + 1);"
+      },
+      {
+        "line": 126,
+        "lhs": "prefix",
+        "rhs": "malloc(sizeof(int) * (MAX_CODES + 1))",
+        "source": "prefix = malloc(sizeof(int) * (MAX_CODES + 1));"
+      },
+      {
+        "line": 128,
+        "lhs": "curr_size",
+        "rhs": "size + 1",
+        "source": "curr_size = size + 1;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S38/VESA.C",
+    "score": 40,
+    "variables": [
+      "PAGE",
+      "GX",
+      "GY",
+      "OGX",
+      "OGY",
+      "ADDX",
+      "ADDY",
+      "nBall",
+      "pal",
+      "Ball",
+      "Back",
+      "i",
+      "ptr",
+      "width",
+      "height",
+      "Length",
+      "j",
+      "k",
+      "loop"
+    ],
+    "expressions": [
+      {
+        "line": 99,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++;"
+      },
+      {
+        "line": 100,
+        "lhs": "height",
+        "rhs": "*ptr++",
+        "source": "height = *ptr++;"
+      },
+      {
+        "line": 101,
+        "lhs": "Length",
+        "rhs": "width * height",
+        "source": "Length = width * height;"
+      },
+      {
+        "line": 111,
+        "lhs": "nBall[i]",
+        "rhs": "random(4)",
+        "source": "nBall[i] = random(4);"
+      },
+      {
+        "line": 172,
+        "lhs": "ADDY[i]",
+        "rhs": "(random(7) - 3) * 2",
+        "source": "ADDY[i] = (random(7) - 3) * 2;"
+      },
+      {
+        "line": 173,
+        "lhs": "ADDX[i]",
+        "rhs": "-ADDX[i]",
+        "source": "ADDX[i] = -ADDX[i];"
+      },
+      {
+        "line": 176,
+        "lhs": "ADDX[i]",
+        "rhs": "(random(7) - 3) * 2",
+        "source": "ADDX[i] = (random(7) - 3) * 2 ;"
+      },
+      {
+        "line": 177,
+        "lhs": "ADDY[i]",
+        "rhs": "-ADDY[i]",
+        "source": "ADDY[i] = -ADDY[i];"
+      },
+      {
+        "line": 206,
+        "lhs": "PAGE",
+        "rhs": "1 - PAGE",
+        "source": "PAGE = 1 - PAGE;"
+      },
+      {
+        "line": 213,
+        "lhs": "ADDY[i]",
+        "rhs": "(random(4) - 2) * 4",
+        "source": "ADDY[i] = (random(4) - 2) * 4;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S39/DINOSTAR.C",
+    "score": 40,
+    "variables": [
+      "Dinosor",
+      "Ballon1",
+      "PAGE",
+      "MOVE",
+      "GX",
+      "GY",
+      "OGX",
+      "OGY",
+      "GXBallon",
+      "GYBallon",
+      "CBallon",
+      "AddBallon",
+      "OGXBallon",
+      "OGYBallon",
+      "GXStom",
+      "GYStom",
+      "AddStom",
+      "OGXStom",
+      "OGYStom",
+      "GXStar"
+    ],
+    "expressions": [
+      {
+        "line": 200,
+        "lhs": "r",
+        "rhs": "*ptr++",
+        "source": "r = *ptr++;"
+      },
+      {
+        "line": 201,
+        "lhs": "g",
+        "rhs": "*ptr++",
+        "source": "g = *ptr++;"
+      },
+      {
+        "line": 202,
+        "lhs": "b",
+        "rhs": "*ptr++",
+        "source": "b = *ptr++;"
+      },
+      {
+        "line": 223,
+        "lhs": "width",
+        "rhs": "2 * (*ptr++) + x",
+        "source": "width  = 2 * (*ptr++) + x;"
+      },
+      {
+        "line": 224,
+        "lhs": "height",
+        "rhs": "2 * (*ptr++) + y",
+        "source": "height = 2 * (*ptr++) + y;"
+      },
+      {
+        "line": 227,
+        "lhs": "color",
+        "rhs": "*ptr++",
+        "source": "color = *ptr++;"
+      },
+      {
+        "line": 243,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++;"
+      },
+      {
+        "line": 244,
+        "lhs": "height",
+        "rhs": "*ptr++",
+        "source": "height = *ptr++;"
+      },
+      {
+        "line": 258,
+        "lhs": "k",
+        "rhs": "random(4) + 4",
+        "source": "k = random(4) + 4;"
+      },
+      {
+        "line": 297,
+        "lhs": "GXBallon[i]",
+        "rhs": "random(20) * 40 + 60",
+        "source": "GXBallon[i] = random(20) * 40 + 60;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S40/FIREWORK.C",
+    "score": 40,
+    "variables": [
+      "tsin",
+      "tcos",
+      "X",
+      "Y",
+      "MAXY",
+      "GX",
+      "GY",
+      "DX",
+      "DY",
+      "GXTile",
+      "GYTile",
+      "cout",
+      "CC",
+      "color",
+      "TileU",
+      "SUBTile",
+      "LTile",
+      "BOOM",
+      "Boom1",
+      "Boom2"
+    ],
+    "expressions": [
+      {
+        "line": 249,
+        "lhs": "x",
+        "rhs": "GXTile[j] - 8",
+        "source": "x = GXTile[j] - 8;"
+      },
+      {
+        "line": 270,
+        "lhs": "X[Num]",
+        "rhs": "random(640) << 2",
+        "source": "X[Num] = random(640) << 2;"
+      },
+      {
+        "line": 271,
+        "lhs": "Y[Num]",
+        "rhs": "random(400) << 2",
+        "source": "Y[Num] = random(400) << 2;"
+      },
+      {
+        "line": 272,
+        "lhs": "MAXY[Num]",
+        "rhs": "random(MAXFIRE >> 1) + (MAXFIRE >> 1)",
+        "source": "MAXY[Num] = random(MAXFIRE >> 1) + (MAXFIRE >> 1);"
+      },
+      {
+        "line": 273,
+        "lhs": "color[Num]",
+        "rhs": "random(8)",
+        "source": "color[Num] = random(8);"
+      },
+      {
+        "line": 274,
+        "lhs": "R",
+        "rhs": "random(6)",
+        "source": "R = random(6);"
+      },
+      {
+        "line": 278,
+        "lhs": "k",
+        "rhs": "random(20) + 1",
+        "source": "k = random(20) + 1;"
+      },
+      {
+        "line": 279,
+        "lhs": "th",
+        "rhs": "random(360)",
+        "source": "th = random(360);"
+      },
+      {
+        "line": 298,
+        "lhs": "SUBTile[Num]",
+        "rhs": "random(8) + 8",
+        "source": "SUBTile[Num] = random(8) + 8;"
+      },
+      {
+        "line": 313,
+        "lhs": "CC[i]",
+        "rhs": "random(10) + 4",
+        "source": "CC[i] = random(10) + 4;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S41/MGRAPH.C",
+    "score": 40,
+    "variables": [
+      "PageStart",
+      "int",
+      "i",
+      "j",
+      "x1",
+      "y1",
+      "Right",
+      "Left",
+      "Up",
+      "Down",
+      "Space",
+      "Esc",
+      "ch",
+      "ScanCode",
+      "ptr",
+      "str",
+      "memtmp",
+      "width",
+      "height",
+      "BitImage"
+    ],
+    "expressions": [
+      {
+        "line": 21,
+        "lhs": "LINE_Y[i]",
+        "rhs": "i * 320",
+        "source": "LINE_Y[i] = i * 320;"
+      },
+      {
+        "line": 22,
+        "lhs": "MemLength",
+        "rhs": "320 * 200",
+        "source": "MemLength = 320 * 200;"
+      },
+      {
+        "line": 79,
+        "lhs": "x1",
+        "rhs": "x0 + *ptr++",
+        "source": "x1 = x0 + *ptr++; y1 = y0 + *ptr++;"
+      },
+      {
+        "line": 89,
+        "lhs": "x1",
+        "rhs": "x0 + *ptr++",
+        "source": "x1 = x0 + *ptr++; y1 = y0 + *ptr++;"
+      },
+      {
+        "line": 161,
+        "lhs": "width",
+        "rhs": "*ptr1++",
+        "source": "width = *ptr1++; height = *ptr1++;"
+      },
+      {
+        "line": 169,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++; height = *ptr++;"
+      },
+      {
+        "line": 188,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++;"
+      },
+      {
+        "line": 189,
+        "lhs": "height",
+        "rhs": "*ptr++",
+        "source": "height = *ptr++;"
+      },
+      {
+        "line": 190,
+        "lhs": "BitImage",
+        "rhs": "malloc((width << 1) * height + 2)",
+        "source": "BitImage = malloc((width << 1) * height + 2);"
+      },
+      {
+        "line": 210,
+        "lhs": "width",
+        "rhs": "*ptr++",
+        "source": "width = *ptr++; height = *ptr++;"
+      }
+    ]
+  },
+  {
+    "archive": "tc",
+    "file": "tc/TC/S43/KILLYABA.C",
+    "score": 40,
+    "variables": [
+      "c_duration",
+      "c_octave",
+      "char",
+      "sp_on",
+      "sp_off",
+      "msb",
+      "c_note",
+      "Ya",
+      "Bitmap1",
+      "Bitmap2",
+      "Bitmap3",
+      "YaBa",
+      "Bitmap5",
+      "NewCo0",
+      "NewCo1",
+      "YaX",
+      "YaY",
+      "PosYA",
+      "Color0",
+      "Color1"
+    ],
+    "expressions": [
+      {
+        "line": 68,
+        "lhs": "c_note",
+        "rhs": "*ptrsong",
+        "source": "c_note = *ptrsong;"
+      },
+      {
+        "line": 73,
+        "lhs": "c_octave",
+        "rhs": "*ptrsong++",
+        "source": "c_octave = *ptrsong++;"
+      },
+      {
+        "line": 76,
+        "lhs": "c_duration",
+        "rhs": "*ptrsong++",
+        "source": "c_duration = *ptrsong++;"
+      },
+      {
+        "line": 81,
+        "lhs": "c_duration",
+        "rhs": "*ptrsong",
+        "source": "c_duration = *ptrsong;"
+      },
+      {
+        "line": 83,
+        "lhs": "msb",
+        "rhs": "notes[c_octave][c_note]/256",
+        "source": "msb=notes[c_octave][c_note]/256;"
+      },
+      {
+        "line": 195,
+        "lhs": "x1",
+        "rhs": "x0 + *ptr++",
+        "source": "x1 = x0 + *ptr++; y1 = y0 + *ptr++;"
+      },
+      {
+        "line": 216,
+        "lhs": "Color0",
+        "rhs": "random(7)",
+        "source": "Color0 = random(7);"
+      },
+      {
+        "line": 217,
+        "lhs": "Color1",
+        "rhs": "random(7)",
+        "source": "Color1 = random(7);"
+      },
+      {
+        "line": 218,
+        "lhs": "NewCo0",
+        "rhs": "random(7)",
+        "source": "NewCo0 = random(7);"
+      },
+      {
+        "line": 219,
+        "lhs": "NewCo1",
+        "rhs": "random(7)",
+        "source": "NewCo1 = random(7);"
+      }
+    ]
+  }
+]
